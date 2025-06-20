@@ -22,30 +22,31 @@
 * 共通
 * ========================= */
 .body {
-  display: flex;
-  flex-direction: row-reverse;
   font-family: 'Source Sans 3', sans-serif;
 }
 
 .main {
-  width: 65%;
-  background-color: var(--bg-color-body);
-}
-
-.aside {
-  width: 35%;
+  display: flex;
+  width: 100%;
 }
 
 /*-------------------------
   レイアウト
 -------------------------*/
-.l-wrapper {
-  padding: 18vh 4.44vw 8.88vh;
+.left-section-wrapper {
+  width: 35%;
+  height: 100px;
+}
+
+.right-section-wrapper {
+  width: 65%;
+  background-color: var(--bg-color-body);
 }
 
 .l-inner {
-  max-width: 980px;
+  max-width: 1145px;
   width: 100%;
+  padding: 18vh 4.5vw 8.88vh;
 }
 
 /*-------------------------
