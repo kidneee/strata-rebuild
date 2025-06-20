@@ -12,6 +12,7 @@
 
   /* 枠線の色 */
   --border-color-button: #efefef;
+  --border-color-section: #efefef;
 
   /* 文字サイズ */
   --font-size-text: clamp(1rem, 5.6vw, 1.313rem);
@@ -40,13 +41,15 @@
 
 .right-section-wrapper {
   width: 65%;
+  padding: 18vh 4.5vw 8.88vh;
   background-color: var(--bg-color-body);
 }
 
 .l-inner {
-  max-width: 1145px;
+  max-width: 976px;
   width: 100%;
-  padding: 18vh 4.5vw 8.88vh;
+  border-bottom: 1px solid var(--border-color-section);
+  padding-bottom: 8.88vh;
 }
 
 /*-------------------------
